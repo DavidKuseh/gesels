@@ -67,7 +67,7 @@ const Messages = ({ user }) => {
                     )}
                     <div
                         style={{
-                            background: user === messageUser ? "#58bf56" : "#e5e6ea",
+                            background: user === messageUser ? "blue" : "#e5e6ea",
                             color: user === messageUser ? "white" : "black",
                             padding: "1em",
                             borderRadius: "1em",
